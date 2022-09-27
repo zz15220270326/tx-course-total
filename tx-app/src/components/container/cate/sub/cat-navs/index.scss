@@ -1,0 +1,46 @@
+@import '~@/assets/css/mixins.scss';
+
+.cat-navs {
+  position: fixed;
+  left: 0;
+  top: .5rem;
+  width: 100%;
+  height: .36rem;
+
+  .cate-nav-container {
+    @include flex-row;
+    width: 100%;
+    line-height: .36rem;
+    background-color: rgb(35, 184, 255);
+    color: #fff;
+  
+    .cat-nav-item {
+      @include flex-column;
+      flex: 1;
+      text-align: center;
+  
+      .cat-nav-title {
+        color: #f1f1f1;
+        font-size: .12rem;
+      }
+  
+      &.active {
+    
+        .cat-nav-title {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: .02rem;
+    color: #fff;
+    background-color: #fff;
+    transition: left .25s ease-in;
+  }
+}

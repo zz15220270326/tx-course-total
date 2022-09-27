@@ -1,0 +1,54 @@
+{
+  "todayStudyTimeInfo": "98%学员",
+  "overStudentsInfo": "167分钟",
+  "coursePlanData": [
+      {
+          "type": "paid_course",
+          "link": "https://m.ke.qq.com/course/334138",
+          "img_src": "https://10.idqqimg.com/qqcourse_logo_ng/ajNVdqHZLLA8vJrwOUtiaA4V9vJzicuo8ALr2ljTZ2aVEYe9mqnANj3Kicukv7VWFHSYdRZ90uxR6E/600?",
+          "title": "WEB前端高级工程师养成计划『全修精英特训』【JS++】",
+          "progress": "已学 23%",
+          "lastCourseInfo": "上次学到：抽离更改状态的公共控制器方法"
+      },
+      {
+          "type": "paid_course",
+          "link": "https://m.ke.qq.com/course/package/25865#from=plan",
+          "img_src": "https://10.idqqimg.com/qqcourse_logo_ng/ajNVdqHZLLCZqibas9m7tp0iamHGX7dM14RGFvccfVhibgRxxIzWNQImoibFLxRYQL3l2OJ6BmYY6Lc/600?",
+          "title": "WEB前端高级工程师养成计划『全修精英特训』【JS++】",
+          "progress": "课程数：12",
+          "lastCourseInfo": "上次学到：函数面试题【1】"
+      },
+      {
+          "type": "paid_course",
+          "link": "https://m.ke.qq.com/course/380171",
+          "img_src": "https://10.idqqimg.com/qqcourse_logo_ng/ajNVdqHZLLBRd2BFeVArM8KDhHyia7jXEA1lShCdUhHbPicoSbTQAGetCeGv8qpWZXZPuXYic6U8yI/600?",
+          "title": "WEB前端高级工程师养成计划『全修精英特训』【JS++】",
+          "progress": "已学 71%",
+          "lastCourseInfo": "上次学到：『纯函数』的好处"
+      },
+      {
+          "type": "free_course",
+          "link": "https://m.ke.qq.com/course/329070",
+          "img_src": "https://10.idqqimg.com/qqcourse_logo_ng/ajNVdqHZLLApQdpeSvjDeicxgWtCYvORKeiaO4xw6mv7xpadqqhwMXSialBaL6FezpZf3aP9DuGTbo/600?",
+          "title": "WEB前端高级工程师养成计划『全修精英特训』【JS++】",
+          "progress": "已学 5%",
+          "lastCourseInfo": "上次学到：函数面试题【1】"
+      },
+      {
+          "type": "free_course",
+          "link": "https://m.ke.qq.com/course/329334",
+          "img_src": "https://10.idqqimg.com/qqcourse_logo_ng/ajNVdqHZLLDbwCfeibTVFrMtNBP7cIEtj3dick4hsbzt7ttG1rTvejDaZiax268esuUWj0aSy150XU/600?",
+          "title": "WEB前端高级工程师养成计划『全修精英特训』【JS++】",
+          "progress": "已学 4%",
+          "lastCourseInfo": "上次学到：【NEW】如何成为前端工程师 - 小野老师"
+      },
+      {
+          "type": "free_course",
+          "link": "https://m.ke.qq.com/course/329091",
+          "img_src": "https://10.idqqimg.com/qqcourse_logo_ng/ajNVdqHZLLAvT8roMticl371CdmASXhjFW2Dhm6Sd8aU5ib3my0buZY9jDQ5EiakpBh4Qwv4Hbyoic0/600?",
+          "title": "WEB前端高级工程师养成计划『全修精英特训』【JS++】",
+          "progress": "已学 1%",
+          "lastCourseInfo": "上次学到：VueJS三大特点、课程简介"
+      }
+  ]
+}

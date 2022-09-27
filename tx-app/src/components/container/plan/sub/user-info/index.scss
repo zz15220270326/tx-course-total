@@ -1,0 +1,34 @@
+@import '~@/assets/css/mixins.scss';
+
+.user-msg-box {
+  height: .6rem;
+  line-height: .6rem;
+  @include flex-row;
+  background: url(https://dl.fudao.qq.com/pc/misc/files/20210826/9c7305ceaa1b4531a89cf4f78278cffc.png) 100% ;
+
+  .user-info-box {
+    flex: 1;
+    text-align: center;
+
+    .info-title {
+      margin: 0;
+      padding: 0;
+      font-size: .1rem;
+      height: .2rem;
+      @include vh-center;
+    }
+
+    .info-desc {
+      font-size: .2rem;
+      color: #000;
+      font-weight: 600;
+
+      .pre-label,
+      .info-desc-unit {
+        font-size: .1rem;
+        font-weight: normal;
+        color: #666;
+      }
+    }
+  }
+}

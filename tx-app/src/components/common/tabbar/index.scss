@@ -1,0 +1,41 @@
+@import "@/assets/css/mixins.scss";
+@import "@/assets/css/variables.scss";
+
+.tabbar {
+  height: .5rem;
+  padding: 0 .12rem;
+  z-index: 100;
+  box-sizing: border-box;
+
+  .tabbar-inner {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    @include flex-row;
+    justify-content: space-evenly;
+
+    .tabbar-item {
+      text-align: center;
+      @include flex-column;
+      // line-height: .2rem;
+  
+      &.active {
+        color: $tx-primary;
+      }
+  
+      .tabbar-item-cover {
+        text-align: center;
+        .iconfont {
+          line-height: .28rem;
+          font-size: .25rem;
+          // width: .16rem;
+        }
+      }
+      .tabbar-item-text {
+        font-size: .115rem;
+      }
+    }
+  }
+}

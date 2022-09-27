@@ -1,0 +1,68 @@
+@import '~@/assets/css/mixins.scss';
+
+.info-tit {
+  line-height: .6rem;
+  margin: 0;
+  background-color: #fff;
+
+  .user-info-tit {
+    position: relative;
+    padding: .1rem;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    @include flex-row;
+
+    .user-avatar {
+      width: .54rem;
+      height: .54rem;
+      border-radius: 50%;
+    }
+
+    .user-nickname {
+      color: #000;
+      margin-left: .1rem;
+      font-size: .22rem;
+      font-weight: 500;
+    }
+
+    .tit-link {
+      position: absolute;
+      top: 50%;
+      right: .1rem;
+      margin-top: -.3rem;
+
+      .iconfont {
+        font-size: .25rem;
+        color: #787878;
+      }
+    }
+  }
+}
+
+.info-list {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: .1rem;
+  box-sizing: border-box;
+  @include flex-row;
+
+  .info-list-item {
+    color: #2d2d2d;
+    flex: 1;
+    @include vh-center;
+    flex-direction: column;
+    
+    .item-cover {
+      .iconfont {
+        font-size: .3rem;
+      }
+    }
+
+    .item-title {
+      span {
+        font-size: .13rem;
+      }
+    }
+  }
+}

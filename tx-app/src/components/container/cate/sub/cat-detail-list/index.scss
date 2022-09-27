@@ -1,0 +1,51 @@
+@import '~@/assets/css/mixins.scss';
+
+.nav-detail-list {
+  background-color: #fff;
+  
+  .main-info {
+    box-sizing: border-box;
+    
+    .cat-detail-item {
+      @include flex-row;
+      min-height: .6rem;
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+
+      h3 {
+        font-size: .12rem;
+      }
+
+      &:last-child {
+        border: none;
+      }
+
+      .left {
+        @include vh-center;
+        flex: 1;
+      }
+      .right {
+        @include flex-row;
+        flex: 3;
+        flex-wrap: wrap;
+        
+        .t-item {
+          width: 30%;
+          @include flex-row;
+          padding: .1rem 0;
+          box-sizing: border-box;
+
+          h3 {
+            color: #000000;
+          }
+
+          &:nth-child(3n-1)::after, &:nth-child(3n-2)::after {
+            content: "|";
+            color: #c8c8c8;
+            padding: 0 .1rem;
+          }
+        }
+      }
+    }
+  }
+}

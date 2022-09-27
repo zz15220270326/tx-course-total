@@ -1,0 +1,46 @@
+@import "@/assets/css/mixins.scss";
+
+.current-course {
+  position: relative;
+  height: .48rem;
+  margin: .1rem .16rem 0;
+  position: relative;
+  background-color: #fff;
+
+  .left-content {
+    height: .48rem;
+    width: .85rem;
+  
+    .course-cover {
+      display: block;
+      height: 100%;
+    }
+  }
+
+  .right-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: .85rem;
+    box-sizing: border-box;
+
+    .learning-title-text {
+      @include ellipse;
+      font-size: .12rem;
+      margin: 0;
+    }
+
+    .learning-content-text {
+      @include ellipse;
+      margin: .03rem 0 0;
+      font-size: .1rem;
+      color: #565656;
+    }
+
+    .learning-content-text,
+    .learning-title-text {
+      margin-left: .08rem;
+    }
+  }
+}

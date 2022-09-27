@@ -1,0 +1,46 @@
+@import '~@/assets/css/mixins.scss';
+
+.hot-words {
+  width: 100%;
+
+  .nav-title {
+    padding-left: .1rem;
+    box-sizing: border-box;
+
+    .title {
+      color: #000;
+      font-size: .17rem;
+    }
+  }
+
+  .hot-list-inner {
+    @include flex-row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 .1rem;
+    box-sizing: border-box;
+
+    .hw-item {
+      margin-top: .05rem;
+      padding: .05rem;
+      background-color: #e6e6e6;
+      border-radius: .1rem;
+
+      .hw-item-name,
+      .hw-item-type {
+        font-size: .13rem;
+      }
+
+      .hw-item-type {
+        background-color: #ff4400;
+        color: #fff;
+        border-radius: .1rem;
+        padding: .02rem;
+
+        &.hidden {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+}

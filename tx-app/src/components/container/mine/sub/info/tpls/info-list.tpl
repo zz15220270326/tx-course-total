@@ -1,0 +1,1 @@
+<div class="info-list">{{template}}</div>

@@ -1,0 +1,27 @@
+@import "@/assets/css/normalize.scss";
+
+#app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  // overflow-x: hidden;
+  .header {
+
+    .input-route {
+      width: 3.6rem;
+      height: .3rem;
+      line-height: .05rem;
+    }
+  }
+
+  .mine-container {
+    width: 100%;
+    height: 100%;
+    padding: .5rem 0 0;
+
+    .main {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

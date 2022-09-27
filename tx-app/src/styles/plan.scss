@@ -1,0 +1,25 @@
+@import "@/assets/css/normalize.scss";
+
+#app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  // overflow-x: hidden;
+
+  .header {
+    background: url(https://dl.fudao.qq.com/pc/misc/files/20210826/9c7305ceaa1b4531a89cf4f78278cffc.png) 100%;
+    background-color: transparent;
+    // background: url(~@/assets/imgs/course-list-bg.png) 100%;
+
+    .input-route {
+      width: 3.6rem;
+      height: .3rem;
+      line-height: .05rem;
+    }
+  }
+
+  .plan-container {
+    width: 100%;
+    padding: .5rem 0 0;
+  }
+}

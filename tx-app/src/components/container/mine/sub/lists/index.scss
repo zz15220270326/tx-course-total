@@ -1,0 +1,46 @@
+.mine-info-lists {
+  margin-top: .1rem;
+
+  :nth-child(2),
+  :nth-child(5),
+  :nth-child(6) {
+    margin-top: .1rem;
+  }
+
+  .menu-list {
+    position: relative;
+    height: .4rem;
+    line-height: .4rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+
+    &:first-child {
+      
+      .extra-info {
+        color: #f69100;
+      }
+    }
+
+    .list-link {
+      .text-title {
+        color: #000;
+        font-size: .16rem;
+      }
+
+      .extra-info {
+        position: absolute;
+        top: 50%;
+        right: .03rem;
+        height: 100%;
+        margin-top: -.2rem;
+        color: #666;
+
+        .iconfont {
+          font-size: .18rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

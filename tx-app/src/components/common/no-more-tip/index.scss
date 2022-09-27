@@ -1,0 +1,21 @@
+.no-more-tip {
+  width: 100%;
+  text-align: center;
+  color: #565656;
+  margin-bottom: .05rem;
+
+  .img-cover {
+    width: 100%;
+
+    img {
+      display: block;
+      width: .36rem;
+      height: .36rem;
+      margin: 0 auto;
+    }
+  }
+  .text-content {
+    padding: .03rem 0;
+    font-size: .13rem;
+  }
+}
